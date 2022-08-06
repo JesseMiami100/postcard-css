@@ -1,12 +1,20 @@
 body {
 	background: black;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	margin-top: 120px;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 22px;
 }
 
 .postcard {
 	color: black;
 	background: white;
-	width: 500px;
-	height: 300px;
+	width: 400px;
+	height: 245px;
 	margin: auto;
 }
 
@@ -46,11 +54,26 @@ input {
 	padding: 8px;
 }
 
-.postcard-footer {
+button {
 	text-align: center;
-	margin-bottom: 400px;
-	margin-right: 620px;
 	position: absolute;
-	bottom: 0;
-	right: 0;
+	z-index: 3; 
+	margin-top: 50px;
+	margin: auto;
+	margin-left: 130px;
+	border-bottom: 1px solid rgb(190, 188, 188);
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background-color: rgb(230, 223, 223);
+	padding-bottom: 3px;
+}
+
+input {
+      border-bottom: 1px solid rgb(224, 222, 222);
+	  border-top: none;
+	  border-left: none;
+	  border-right: none;
+	  padding-bottom: 3px;
+	  font-family: Georgia, serif;
 }
